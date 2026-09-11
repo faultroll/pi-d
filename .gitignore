@@ -1,0 +1,12 @@
+__pycache__
+
+SOTS
+pretrained
+vgg16-397923af.pth
+
+outputs
+# *.onnx
+# *.pth
+
+*.npz
+*.png

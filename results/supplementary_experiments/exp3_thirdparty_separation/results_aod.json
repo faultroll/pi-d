@@ -1,0 +1,341 @@
+{
+  "sweep_A_fixed_kstar": [
+    {
+      "K_star": 1.5,
+      "g": 0.45,
+      "I": 0.55,
+      "J": 0.325,
+      "A": 0.98,
+      "t": 0.656489,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.3,
+      "I": 0.7,
+      "J": 0.55,
+      "A": 0.98,
+      "t": 0.651163,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.7,
+      "A": 0.98,
+      "t": 0.642857,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.1,
+      "I": 0.9,
+      "J": 0.85,
+      "A": 0.98,
+      "t": 0.615385,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.05,
+      "I": 0.95,
+      "J": 0.925,
+      "A": 0.98,
+      "t": 0.545455,
+      "t_in_valid_range": true
+    }
+  ],
+  "sweep_B_fixed_g": [
+    {
+      "K_star": 1.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.8,
+      "A": 0.98,
+      "t": 1.0,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.7,
+      "A": 0.98,
+      "t": 0.642857,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 2.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.6,
+      "A": 0.98,
+      "t": 0.473684,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 3.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.4,
+      "A": 0.98,
+      "t": 0.310345,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 4.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.2,
+      "A": 0.98,
+      "t": 0.230769,
+      "t_in_valid_range": true
+    },
+    {
+      "K_star": 5.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.0,
+      "A": 0.98,
+      "t": 0.183673,
+      "t_in_valid_range": true
+    }
+  ],
+  "sweep_A_network": [
+    {
+      "K_star": 1.5,
+      "g": 0.45,
+      "I": 0.55,
+      "J": 0.325,
+      "A": 0.98,
+      "t": 0.656489,
+      "t_in_valid_range": true,
+      "K_hat": 0.817829,
+      "K_hat_per_channel": [
+        0.862167,
+        0.805788,
+        0.785532
+      ],
+      "abs_error": 0.682171,
+      "K_const_control": 0.942669,
+      "abs_error_const_control": 0.557331
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.3,
+      "I": 0.7,
+      "J": 0.55,
+      "A": 0.98,
+      "t": 0.651163,
+      "t_in_valid_range": true,
+      "K_hat": 0.899176,
+      "K_hat_per_channel": [
+        0.974441,
+        0.883508,
+        0.839579
+      ],
+      "abs_error": 0.600824,
+      "K_const_control": 0.942669,
+      "abs_error_const_control": 0.557331
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.7,
+      "A": 0.98,
+      "t": 0.642857,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 0.546504,
+      "K_const_control": 0.942669,
+      "abs_error_const_control": 0.557331
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.1,
+      "I": 0.9,
+      "J": 0.85,
+      "A": 0.98,
+      "t": 0.615385,
+      "t_in_valid_range": true,
+      "K_hat": 1.007838,
+      "K_hat_per_channel": [
+        1.124334,
+        0.987344,
+        0.911834
+      ],
+      "abs_error": 0.492162,
+      "K_const_control": 0.942669,
+      "abs_error_const_control": 0.557331
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.05,
+      "I": 0.95,
+      "J": 0.925,
+      "A": 0.98,
+      "t": 0.545455,
+      "t_in_valid_range": true,
+      "K_hat": 1.035008,
+      "K_hat_per_channel": [
+        1.161812,
+        1.01331,
+        0.929904
+      ],
+      "abs_error": 0.464992,
+      "K_const_control": 0.942669,
+      "abs_error_const_control": 0.557331
+    }
+  ],
+  "sweep_A_summary": {
+    "k_const_fitted": 0.942669,
+    "mean_abs_error_real": 0.557331,
+    "mean_abs_error_const_control": 0.557331,
+    "corr_real_vs_const_error_curves": null,
+    "r2_real_vs_const_error_curves": null
+  },
+  "sweep_B_network": [
+    {
+      "K_star": 1.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.8,
+      "A": 0.98,
+      "t": 1.0,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 0.046504,
+      "K_const_control": 0.953496,
+      "abs_error_const_control": 0.046504
+    },
+    {
+      "K_star": 1.5,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.7,
+      "A": 0.98,
+      "t": 0.642857,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 0.546504,
+      "K_const_control": 0.953496,
+      "abs_error_const_control": 0.546504
+    },
+    {
+      "K_star": 2.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.6,
+      "A": 0.98,
+      "t": 0.473684,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 1.046504,
+      "K_const_control": 0.953496,
+      "abs_error_const_control": 1.046504
+    },
+    {
+      "K_star": 3.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.4,
+      "A": 0.98,
+      "t": 0.310345,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 2.046504,
+      "K_const_control": 0.953496,
+      "abs_error_const_control": 2.046504
+    },
+    {
+      "K_star": 4.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.2,
+      "A": 0.98,
+      "t": 0.230769,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 3.046504,
+      "K_const_control": 0.953496,
+      "abs_error_const_control": 3.046504
+    },
+    {
+      "K_star": 5.0,
+      "g": 0.2,
+      "I": 0.8,
+      "J": 0.0,
+      "A": 0.98,
+      "t": 0.183673,
+      "t_in_valid_range": true,
+      "K_hat": 0.953496,
+      "K_hat_per_channel": [
+        1.049379,
+        0.935414,
+        0.875695
+      ],
+      "abs_error": 4.046504,
+      "K_const_control": 0.953496,
+      "abs_error_const_control": 4.046504
+    }
+  ],
+  "sweep_B_summary": {
+    "k_const_fitted": 0.953496,
+    "mean_abs_error_real": 1.796504,
+    "mean_abs_error_const_control": 1.796504,
+    "corr_real_vs_const_error_curves": 1.0,
+    "r2_real_vs_const_error_curves": 1.0
+  },
+  "real_image_scatter": {
+    "domain": "indoor",
+    "n_images": 35,
+    "n_pixels_sampled": 158340,
+    "corr_khat_vs_kstar": 0.2683,
+    "k_hat_std_over_kstar_std": 0.2158,
+    "corr_abs_error_vs_g": -0.268,
+    "k_hat_mean": 0.9189,
+    "k_hat_std": 0.1315,
+    "k_star_mean": 1.6894,
+    "k_star_std": 0.6094,
+    "k_const_control": 0.9189,
+    "corr_abs_error_vs_g_const": -0.4037,
+    "mse_network_vs_kstar": 0.939396,
+    "mse_const_vs_kstar": 0.9651,
+    "mse_delta": -0.025704,
+    "var_khat": 0.017295,
+    "cov_khat_kstar": 0.0215,
+    "interpretation": "corr near 0 (or K_hat_std << K_star_std) means the network's output barely moves with the theoretically-required target even across real, in-distribution pixels -- the constant-output failure mode, not gradient degeneracy specifically."
+  }
+}

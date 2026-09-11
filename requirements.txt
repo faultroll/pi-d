@@ -1,0 +1,25 @@
+# Core
+torch>=1.10
+torchvision>=0.11
+numpy
+scipy
+Pillow
+opencv-python
+tqdm
+matplotlib
+
+# Metrics / perceptual loss
+lpips
+
+# ONNX export & whole-model MAC/param profiling for Table `cost_summary`
+# (train.py's export, predict.py's onnx-tool profiling -- see the warning
+# at the top of predict.py: .onnx is architecture-only, not for accuracy)
+onnx
+onnxruntime
+onnx-tool
+
+# Notes:
+# - PyTorch/torchvision: install the build matching your CUDA version,
+#   see https://pytorch.org/get-started/locally/
+# - `lpips` downloads small pretrained AlexNet/VGG weights from its own
+#   PyPI-hosted assets on first run (see experiments/lpips_eval.py).

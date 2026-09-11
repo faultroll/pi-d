@@ -1,0 +1,1377 @@
+{
+  "smooth_scale_s": 16,
+  "sweep": [
+    {
+      "scene": 0,
+      "error_kind": "none",
+      "target_rmse": 0.0,
+      "achieved_rmse": 0.0,
+      "ceiling_psnr_db": 52.58
+    },
+    {
+      "scene": 0,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.04998,
+      "ceiling_psnr_db": 24.26
+    },
+    {
+      "scene": 0,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 40.44
+    },
+    {
+      "scene": 0,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 36.49
+    },
+    {
+      "scene": 0,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09888,
+      "ceiling_psnr_db": 18.11
+    },
+    {
+      "scene": 0,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 32.46
+    },
+    {
+      "scene": 0,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09964,
+      "ceiling_psnr_db": 26.63
+    },
+    {
+      "scene": 0,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.18372,
+      "ceiling_psnr_db": 13.82
+    },
+    {
+      "scene": 0,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19564,
+      "ceiling_psnr_db": 23.3
+    },
+    {
+      "scene": 0,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.17126,
+      "ceiling_psnr_db": 20.61
+    },
+    {
+      "scene": 1,
+      "error_kind": "none",
+      "target_rmse": 0.0,
+      "achieved_rmse": 0.0,
+      "ceiling_psnr_db": 51.76
+    },
+    {
+      "scene": 1,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.04999,
+      "ceiling_psnr_db": 23.28
+    },
+    {
+      "scene": 1,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 39.87
+    },
+    {
+      "scene": 1,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 37.23
+    },
+    {
+      "scene": 1,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09892,
+      "ceiling_psnr_db": 17.31
+    },
+    {
+      "scene": 1,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 32.18
+    },
+    {
+      "scene": 1,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 27.11
+    },
+    {
+      "scene": 1,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.18416,
+      "ceiling_psnr_db": 13.27
+    },
+    {
+      "scene": 1,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19678,
+      "ceiling_psnr_db": 21.63
+    },
+    {
+      "scene": 1,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.17791,
+      "ceiling_psnr_db": 19.57
+    },
+    {
+      "scene": 2,
+      "error_kind": "none",
+      "target_rmse": 0.0,
+      "achieved_rmse": 0.0,
+      "ceiling_psnr_db": 51.42
+    },
+    {
+      "scene": 2,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 22.78
+    },
+    {
+      "scene": 2,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 39.77
+    },
+    {
+      "scene": 2,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 37.88
+    },
+    {
+      "scene": 2,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09917,
+      "ceiling_psnr_db": 17.08
+    },
+    {
+      "scene": 2,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 30.08
+    },
+    {
+      "scene": 2,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 26.79
+    },
+    {
+      "scene": 2,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.18527,
+      "ceiling_psnr_db": 13.07
+    },
+    {
+      "scene": 2,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19896,
+      "ceiling_psnr_db": 19.73
+    },
+    {
+      "scene": 2,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19064,
+      "ceiling_psnr_db": 18.53
+    },
+    {
+      "scene": 3,
+      "error_kind": "none",
+      "target_rmse": 0.0,
+      "achieved_rmse": 0.0,
+      "ceiling_psnr_db": 52.07
+    },
+    {
+      "scene": 3,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.04999,
+      "ceiling_psnr_db": 23.96
+    },
+    {
+      "scene": 3,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 41.31
+    },
+    {
+      "scene": 3,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 40.52
+    },
+    {
+      "scene": 3,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09917,
+      "ceiling_psnr_db": 17.82
+    },
+    {
+      "scene": 3,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 33.57
+    },
+    {
+      "scene": 3,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 31.05
+    },
+    {
+      "scene": 3,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.18535,
+      "ceiling_psnr_db": 13.44
+    },
+    {
+      "scene": 3,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.1984,
+      "ceiling_psnr_db": 23.06
+    },
+    {
+      "scene": 3,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19984,
+      "ceiling_psnr_db": 20.78
+    },
+    {
+      "scene": 4,
+      "error_kind": "none",
+      "target_rmse": 0.0,
+      "achieved_rmse": 0.0,
+      "ceiling_psnr_db": 52.49
+    },
+    {
+      "scene": 4,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.04998,
+      "ceiling_psnr_db": 24.58
+    },
+    {
+      "scene": 4,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 41.21
+    },
+    {
+      "scene": 4,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 41.75
+    },
+    {
+      "scene": 4,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09891,
+      "ceiling_psnr_db": 18.36
+    },
+    {
+      "scene": 4,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 31.48
+    },
+    {
+      "scene": 4,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 32.24
+    },
+    {
+      "scene": 4,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.18448,
+      "ceiling_psnr_db": 13.95
+    },
+    {
+      "scene": 4,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19636,
+      "ceiling_psnr_db": 21.53
+    },
+    {
+      "scene": 4,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.2,
+      "ceiling_psnr_db": 23.03
+    },
+    {
+      "scene": 5,
+      "error_kind": "none",
+      "target_rmse": 0.0,
+      "achieved_rmse": 0.0,
+      "ceiling_psnr_db": 53.33
+    },
+    {
+      "scene": 5,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.04998,
+      "ceiling_psnr_db": 25.43
+    },
+    {
+      "scene": 5,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 40.16
+    },
+    {
+      "scene": 5,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.05,
+      "achieved_rmse": 0.05,
+      "ceiling_psnr_db": 38.55
+    },
+    {
+      "scene": 5,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.09881,
+      "ceiling_psnr_db": 19.08
+    },
+    {
+      "scene": 5,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 29.16
+    },
+    {
+      "scene": 5,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.1,
+      "achieved_rmse": 0.1,
+      "ceiling_psnr_db": 29.76
+    },
+    {
+      "scene": 5,
+      "error_kind": "rough_noise",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.18441,
+      "ceiling_psnr_db": 14.6
+    },
+    {
+      "scene": 5,
+      "error_kind": "constant_bias",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19424,
+      "ceiling_psnr_db": 20.51
+    },
+    {
+      "scene": 5,
+      "error_kind": "low_freq_drift",
+      "target_rmse": 0.2,
+      "achieved_rmse": 0.19992,
+      "ceiling_psnr_db": 22.83
+    }
+  ],
+  "degenerate_case": [
+    {
+      "t_hat": 0.625,
+      "implied_A": 1.0,
+      "asm_residual": 0.0,
+      "A_inv_S_value": 0.9973,
+      "fceil_value": 0.2016,
+      "ceiling_psnr_db": 55.94
+    },
+    {
+      "t_hat": 0.5,
+      "implied_A": 0.8,
+      "asm_residual": 0.0,
+      "A_inv_S_value": 0.7984,
+      "fceil_value": 0.2016,
+      "ceiling_psnr_db": 55.94
+    },
+    {
+      "t_hat": 0.4,
+      "implied_A": 0.7,
+      "asm_residual": 0.0,
+      "A_inv_S_value": 0.6988,
+      "fceil_value": 0.2017,
+      "ceiling_psnr_db": 55.15
+    }
+  ],
+  "smoothing_scale_sensitivity": [
+    {
+      "scene": 0,
+      "smooth_scale_s": 1,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 31.6
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 1,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 33.96
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 2,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 18.78
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 2,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.75
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 4,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 18.24
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 4,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.57
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 8,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 18.14
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 8,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.52
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 16,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 18.11
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 16,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.46
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 32,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 18.11
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 32,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.11
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 64,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 18.14
+    },
+    {
+      "scene": 0,
+      "smooth_scale_s": 64,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.57
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 1,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 30.3
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 1,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 33.71
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 2,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.97
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 2,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.47
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 4,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.45
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 4,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.29
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 8,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.33
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 8,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.24
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 16,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.31
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 16,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 32.18
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 32,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.31
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 32,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 31.81
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 64,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.34
+    },
+    {
+      "scene": 1,
+      "smooth_scale_s": 64,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.48
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 1,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 28.63
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 1,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.78
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 2,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.72
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 2,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.24
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 4,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.21
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 4,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.15
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 8,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.11
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 8,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.12
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 16,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.08
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 16,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 30.08
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 32,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.08
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 32,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 29.88
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 64,
+      "error_kind": "rough_noise",
+      "ceiling_psnr_db": 17.12
+    },
+    {
+      "scene": 2,
+      "smooth_scale_s": 64,
+      "error_kind": "constant_bias",
+      "ceiling_psnr_db": 29.23
+    }
+  ],
+  "real_data": {
+    "indoor": {
+      "n": 35,
+      "mean_ceiling_psnr": 27.53,
+      "mean_high_freq_rms": 0.0397,
+      "mean_low_freq_spatial_dev": 0.0871,
+      "samples": [
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_4.png",
+          "ceiling_psnr_db": 28.52,
+          "tcap_high_freq_rms": 0.0445,
+          "tcap_low_freq_spatial_dev": 0.0718
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_1.png",
+          "ceiling_psnr_db": 25.86,
+          "tcap_high_freq_rms": 0.05,
+          "tcap_low_freq_spatial_dev": 0.145
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_10.png",
+          "ceiling_psnr_db": 20.18,
+          "tcap_high_freq_rms": 0.0296,
+          "tcap_low_freq_spatial_dev": 0.0678
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_3.png",
+          "ceiling_psnr_db": 28.6,
+          "tcap_high_freq_rms": 0.0477,
+          "tcap_low_freq_spatial_dev": 0.0767
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_2.png",
+          "ceiling_psnr_db": 26.48,
+          "tcap_high_freq_rms": 0.0469,
+          "tcap_low_freq_spatial_dev": 0.137
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_1.png",
+          "ceiling_psnr_db": 29.52,
+          "tcap_high_freq_rms": 0.0599,
+          "tcap_low_freq_spatial_dev": 0.1023
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_1.png",
+          "ceiling_psnr_db": 29.44,
+          "tcap_high_freq_rms": 0.0392,
+          "tcap_low_freq_spatial_dev": 0.1111
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_2.png",
+          "ceiling_psnr_db": 28.66,
+          "tcap_high_freq_rms": 0.0596,
+          "tcap_low_freq_spatial_dev": 0.0907
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_10.png",
+          "ceiling_psnr_db": 22.31,
+          "tcap_high_freq_rms": 0.02,
+          "tcap_low_freq_spatial_dev": 0.0707
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_2.png",
+          "ceiling_psnr_db": 28.38,
+          "tcap_high_freq_rms": 0.0514,
+          "tcap_low_freq_spatial_dev": 0.0823
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_1.png",
+          "ceiling_psnr_db": 27.94,
+          "tcap_high_freq_rms": 0.0558,
+          "tcap_low_freq_spatial_dev": 0.0888
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_4.png",
+          "ceiling_psnr_db": 27.33,
+          "tcap_high_freq_rms": 0.0303,
+          "tcap_low_freq_spatial_dev": 0.0659
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_2.png",
+          "ceiling_psnr_db": 31.59,
+          "tcap_high_freq_rms": 0.0358,
+          "tcap_low_freq_spatial_dev": 0.0765
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_10.png",
+          "ceiling_psnr_db": 22.66,
+          "tcap_high_freq_rms": 0.0313,
+          "tcap_low_freq_spatial_dev": 0.0516
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_1.png",
+          "ceiling_psnr_db": 31.89,
+          "tcap_high_freq_rms": 0.0393,
+          "tcap_low_freq_spatial_dev": 0.0832
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_3.png",
+          "ceiling_psnr_db": 31.01,
+          "tcap_high_freq_rms": 0.026,
+          "tcap_low_freq_spatial_dev": 0.0751
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_3.png",
+          "ceiling_psnr_db": 31.36,
+          "tcap_high_freq_rms": 0.0325,
+          "tcap_low_freq_spatial_dev": 0.0985
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_1.png",
+          "ceiling_psnr_db": 31.09,
+          "tcap_high_freq_rms": 0.0323,
+          "tcap_low_freq_spatial_dev": 0.0915
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_2.png",
+          "ceiling_psnr_db": 30.24,
+          "tcap_high_freq_rms": 0.0543,
+          "tcap_low_freq_spatial_dev": 0.0966
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_4.png",
+          "ceiling_psnr_db": 31.78,
+          "tcap_high_freq_rms": 0.0299,
+          "tcap_low_freq_spatial_dev": 0.0933
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_10.png",
+          "ceiling_psnr_db": 14.25,
+          "tcap_high_freq_rms": 0.0199,
+          "tcap_low_freq_spatial_dev": 0.0463
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_4.png",
+          "ceiling_psnr_db": 27.32,
+          "tcap_high_freq_rms": 0.0415,
+          "tcap_low_freq_spatial_dev": 0.1232
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_10.png",
+          "ceiling_psnr_db": 22.07,
+          "tcap_high_freq_rms": 0.0356,
+          "tcap_low_freq_spatial_dev": 0.0658
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_2.png",
+          "ceiling_psnr_db": 30.49,
+          "tcap_high_freq_rms": 0.0355,
+          "tcap_low_freq_spatial_dev": 0.1044
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_10.png",
+          "ceiling_psnr_db": 17.09,
+          "tcap_high_freq_rms": 0.0144,
+          "tcap_low_freq_spatial_dev": 0.0416
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_3.png",
+          "ceiling_psnr_db": 27.01,
+          "tcap_high_freq_rms": 0.044,
+          "tcap_low_freq_spatial_dev": 0.1297
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_4.png",
+          "ceiling_psnr_db": 28.29,
+          "tcap_high_freq_rms": 0.0513,
+          "tcap_low_freq_spatial_dev": 0.0821
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_3.png",
+          "ceiling_psnr_db": 30.61,
+          "tcap_high_freq_rms": 0.0495,
+          "tcap_low_freq_spatial_dev": 0.0917
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_10.png",
+          "ceiling_psnr_db": 23.46,
+          "tcap_high_freq_rms": 0.0307,
+          "tcap_low_freq_spatial_dev": 0.097
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_4.png",
+          "ceiling_psnr_db": 30.43,
+          "tcap_high_freq_rms": 0.0455,
+          "tcap_low_freq_spatial_dev": 0.0873
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_4.png",
+          "ceiling_psnr_db": 29.18,
+          "tcap_high_freq_rms": 0.0236,
+          "tcap_low_freq_spatial_dev": 0.0685
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_2.png",
+          "ceiling_psnr_db": 31.64,
+          "tcap_high_freq_rms": 0.0288,
+          "tcap_low_freq_spatial_dev": 0.0827
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_3.png",
+          "ceiling_psnr_db": 29.99,
+          "tcap_high_freq_rms": 0.0328,
+          "tcap_low_freq_spatial_dev": 0.0708
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_3.png",
+          "ceiling_psnr_db": 28.69,
+          "tcap_high_freq_rms": 0.0551,
+          "tcap_low_freq_spatial_dev": 0.0861
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_1.png",
+          "ceiling_psnr_db": 28.27,
+          "tcap_high_freq_rms": 0.0648,
+          "tcap_low_freq_spatial_dev": 0.0961
+        }
+      ]
+    },
+    "outdoor": {
+      "n": 74,
+      "mean_ceiling_psnr": 31.82,
+      "mean_high_freq_rms": 0.034,
+      "mean_low_freq_spatial_dev": 0.0806,
+      "samples": [
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0318_0.85_0.2.jpg",
+          "ceiling_psnr_db": 36.11,
+          "tcap_high_freq_rms": 0.0135,
+          "tcap_low_freq_spatial_dev": 0.0737
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0022_0.8_0.08.jpg",
+          "ceiling_psnr_db": 33.14,
+          "tcap_high_freq_rms": 0.0294,
+          "tcap_low_freq_spatial_dev": 0.1131
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1970_0.9_0.08.jpg",
+          "ceiling_psnr_db": 29.18,
+          "tcap_high_freq_rms": 0.053,
+          "tcap_low_freq_spatial_dev": 0.0762
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1714_1_0.2.jpg",
+          "ceiling_psnr_db": 26.19,
+          "tcap_high_freq_rms": 0.0249,
+          "tcap_low_freq_spatial_dev": 0.0575
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0213_1_0.2.jpg",
+          "ceiling_psnr_db": 29.9,
+          "tcap_high_freq_rms": 0.0243,
+          "tcap_low_freq_spatial_dev": 0.0739
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0100_0.9_0.12.jpg",
+          "ceiling_psnr_db": 34.88,
+          "tcap_high_freq_rms": 0.0246,
+          "tcap_low_freq_spatial_dev": 0.0908
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0092_0.85_0.2.jpg",
+          "ceiling_psnr_db": 31.61,
+          "tcap_high_freq_rms": 0.039,
+          "tcap_low_freq_spatial_dev": 0.0554
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0148_0.9_0.12.jpg",
+          "ceiling_psnr_db": 37.62,
+          "tcap_high_freq_rms": 0.021,
+          "tcap_low_freq_spatial_dev": 0.1175
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0004_0.9_0.12.jpg",
+          "ceiling_psnr_db": 27.98,
+          "tcap_high_freq_rms": 0.0503,
+          "tcap_low_freq_spatial_dev": 0.0328
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0242_0.8_0.12.jpg",
+          "ceiling_psnr_db": 34.6,
+          "tcap_high_freq_rms": 0.0348,
+          "tcap_low_freq_spatial_dev": 0.0511
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1962_0.9_0.08.jpg",
+          "ceiling_psnr_db": 30.69,
+          "tcap_high_freq_rms": 0.0402,
+          "tcap_low_freq_spatial_dev": 0.1436
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0271_0.85_0.12.jpg",
+          "ceiling_psnr_db": 38.35,
+          "tcap_high_freq_rms": 0.0173,
+          "tcap_low_freq_spatial_dev": 0.1001
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0140_0.95_0.12.jpg",
+          "ceiling_psnr_db": 30.35,
+          "tcap_high_freq_rms": 0.0425,
+          "tcap_low_freq_spatial_dev": 0.048
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1982_1_0.08.jpg",
+          "ceiling_psnr_db": 29.4,
+          "tcap_high_freq_rms": 0.0465,
+          "tcap_low_freq_spatial_dev": 0.1007
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1784_0.8_0.08.jpg",
+          "ceiling_psnr_db": 31.7,
+          "tcap_high_freq_rms": 0.0345,
+          "tcap_low_freq_spatial_dev": 0.1034
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0142_0.95_0.08.jpg",
+          "ceiling_psnr_db": 32.49,
+          "tcap_high_freq_rms": 0.0324,
+          "tcap_low_freq_spatial_dev": 0.0859
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1964_0.85_0.2.jpg",
+          "ceiling_psnr_db": 34.82,
+          "tcap_high_freq_rms": 0.0259,
+          "tcap_low_freq_spatial_dev": 0.0513
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0019_0.8_0.16.jpg",
+          "ceiling_psnr_db": 33.39,
+          "tcap_high_freq_rms": 0.0304,
+          "tcap_low_freq_spatial_dev": 0.072
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0382_0.9_0.08.jpg",
+          "ceiling_psnr_db": 34.44,
+          "tcap_high_freq_rms": 0.0314,
+          "tcap_low_freq_spatial_dev": 0.1299
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0065_0.9_0.12.jpg",
+          "ceiling_psnr_db": 30.16,
+          "tcap_high_freq_rms": 0.0439,
+          "tcap_low_freq_spatial_dev": 0.0644
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0058_0.8_0.2.jpg",
+          "ceiling_psnr_db": 29.73,
+          "tcap_high_freq_rms": 0.0469,
+          "tcap_low_freq_spatial_dev": 0.0607
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0391_1_0.08.jpg",
+          "ceiling_psnr_db": 29.36,
+          "tcap_high_freq_rms": 0.0476,
+          "tcap_low_freq_spatial_dev": 0.1294
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1756_0.9_0.12.jpg",
+          "ceiling_psnr_db": 32.49,
+          "tcap_high_freq_rms": 0.0342,
+          "tcap_low_freq_spatial_dev": 0.0951
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0183_0.8_0.16.jpg",
+          "ceiling_psnr_db": 33.15,
+          "tcap_high_freq_rms": 0.0281,
+          "tcap_low_freq_spatial_dev": 0.0847
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0023_0.85_0.12.jpg",
+          "ceiling_psnr_db": 38.53,
+          "tcap_high_freq_rms": 0.0151,
+          "tcap_low_freq_spatial_dev": 0.0856
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0343_0.95_0.2.jpg",
+          "ceiling_psnr_db": 29.58,
+          "tcap_high_freq_rms": 0.0316,
+          "tcap_low_freq_spatial_dev": 0.0671
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0404_0.8_0.2.jpg",
+          "ceiling_psnr_db": 36.48,
+          "tcap_high_freq_rms": 0.0178,
+          "tcap_low_freq_spatial_dev": 0.0818
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1007_0.95_0.08.jpg",
+          "ceiling_psnr_db": 38.35,
+          "tcap_high_freq_rms": 0.0157,
+          "tcap_low_freq_spatial_dev": 0.1226
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1730_0.85_0.08.jpg",
+          "ceiling_psnr_db": 27.37,
+          "tcap_high_freq_rms": 0.0714,
+          "tcap_low_freq_spatial_dev": 0.1198
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1742_0.85_0.12.jpg",
+          "ceiling_psnr_db": 27.75,
+          "tcap_high_freq_rms": 0.0611,
+          "tcap_low_freq_spatial_dev": 0.0967
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1712_0.8_0.08.jpg",
+          "ceiling_psnr_db": 29.9,
+          "tcap_high_freq_rms": 0.0521,
+          "tcap_low_freq_spatial_dev": 0.0907
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0411_0.95_0.16.jpg",
+          "ceiling_psnr_db": 32.35,
+          "tcap_high_freq_rms": 0.0307,
+          "tcap_low_freq_spatial_dev": 0.0529
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1926_0.9_0.16.jpg",
+          "ceiling_psnr_db": 32.78,
+          "tcap_high_freq_rms": 0.029,
+          "tcap_low_freq_spatial_dev": 0.0551
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0292_1_0.16.jpg",
+          "ceiling_psnr_db": 39.63,
+          "tcap_high_freq_rms": 0.0112,
+          "tcap_low_freq_spatial_dev": 0.0764
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0102_0.85_0.12.jpg",
+          "ceiling_psnr_db": 39.23,
+          "tcap_high_freq_rms": 0.0137,
+          "tcap_low_freq_spatial_dev": 0.0976
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1046_0.9_0.16.jpg",
+          "ceiling_psnr_db": 31.94,
+          "tcap_high_freq_rms": 0.0236,
+          "tcap_low_freq_spatial_dev": 0.0636
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0139_0.85_0.12.jpg",
+          "ceiling_psnr_db": 31.91,
+          "tcap_high_freq_rms": 0.0424,
+          "tcap_low_freq_spatial_dev": 0.0505
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0071_0.8_0.2.jpg",
+          "ceiling_psnr_db": 32.58,
+          "tcap_high_freq_rms": 0.0385,
+          "tcap_low_freq_spatial_dev": 0.092
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1852_0.85_0.08.jpg",
+          "ceiling_psnr_db": 32.83,
+          "tcap_high_freq_rms": 0.0348,
+          "tcap_low_freq_spatial_dev": 0.1279
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0166_0.8_0.16.jpg",
+          "ceiling_psnr_db": 30.69,
+          "tcap_high_freq_rms": 0.0169,
+          "tcap_low_freq_spatial_dev": 0.0408
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0269_0.95_0.2.jpg",
+          "ceiling_psnr_db": 35.88,
+          "tcap_high_freq_rms": 0.0197,
+          "tcap_low_freq_spatial_dev": 0.0584
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0068_1_0.16.jpg",
+          "ceiling_psnr_db": 28.54,
+          "tcap_high_freq_rms": 0.0401,
+          "tcap_low_freq_spatial_dev": 0.0846
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1956_0.8_0.12.jpg",
+          "ceiling_psnr_db": 31.81,
+          "tcap_high_freq_rms": 0.0332,
+          "tcap_low_freq_spatial_dev": 0.1064
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0076_0.8_0.2.jpg",
+          "ceiling_psnr_db": 30.98,
+          "tcap_high_freq_rms": 0.0355,
+          "tcap_low_freq_spatial_dev": 0.0451
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1900_0.8_0.08.jpg",
+          "ceiling_psnr_db": 32.0,
+          "tcap_high_freq_rms": 0.0386,
+          "tcap_low_freq_spatial_dev": 0.1451
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0225_0.8_0.2.jpg",
+          "ceiling_psnr_db": 35.88,
+          "tcap_high_freq_rms": 0.016,
+          "tcap_low_freq_spatial_dev": 0.0772
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0364_0.85_0.12.jpg",
+          "ceiling_psnr_db": 30.82,
+          "tcap_high_freq_rms": 0.0398,
+          "tcap_low_freq_spatial_dev": 0.0548
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0076_1_0.16.jpg",
+          "ceiling_psnr_db": 32.35,
+          "tcap_high_freq_rms": 0.0378,
+          "tcap_low_freq_spatial_dev": 0.0497
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0392_1_0.2.jpg",
+          "ceiling_psnr_db": 33.2,
+          "tcap_high_freq_rms": 0.0262,
+          "tcap_low_freq_spatial_dev": 0.0472
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0346_0.95_0.16.jpg",
+          "ceiling_psnr_db": 32.0,
+          "tcap_high_freq_rms": 0.0349,
+          "tcap_low_freq_spatial_dev": 0.1007
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0216_1_0.12.jpg",
+          "ceiling_psnr_db": 30.43,
+          "tcap_high_freq_rms": 0.0324,
+          "tcap_low_freq_spatial_dev": 0.0543
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0243_0.8_0.08.jpg",
+          "ceiling_psnr_db": 34.1,
+          "tcap_high_freq_rms": 0.0239,
+          "tcap_low_freq_spatial_dev": 0.1041
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0171_0.85_0.12.jpg",
+          "ceiling_psnr_db": 29.13,
+          "tcap_high_freq_rms": 0.0713,
+          "tcap_low_freq_spatial_dev": 0.0605
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0084_0.95_0.16.jpg",
+          "ceiling_psnr_db": 30.34,
+          "tcap_high_freq_rms": 0.0527,
+          "tcap_low_freq_spatial_dev": 0.0767
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1853_0.85_0.08.jpg",
+          "ceiling_psnr_db": 28.93,
+          "tcap_high_freq_rms": 0.0483,
+          "tcap_low_freq_spatial_dev": 0.0699
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0138_0.9_0.08.jpg",
+          "ceiling_psnr_db": 28.99,
+          "tcap_high_freq_rms": 0.052,
+          "tcap_low_freq_spatial_dev": 0.0681
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0174_0.95_0.08.jpg",
+          "ceiling_psnr_db": 28.8,
+          "tcap_high_freq_rms": 0.051,
+          "tcap_low_freq_spatial_dev": 0.1089
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1879_0.9_0.08.jpg",
+          "ceiling_psnr_db": 27.63,
+          "tcap_high_freq_rms": 0.056,
+          "tcap_low_freq_spatial_dev": 0.1326
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1800_1_0.16.jpg",
+          "ceiling_psnr_db": 31.96,
+          "tcap_high_freq_rms": 0.032,
+          "tcap_low_freq_spatial_dev": 0.0558
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0126_0.8_0.2.jpg",
+          "ceiling_psnr_db": 35.17,
+          "tcap_high_freq_rms": 0.0226,
+          "tcap_low_freq_spatial_dev": 0.1001
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0210_0.85_0.2.jpg",
+          "ceiling_psnr_db": 33.54,
+          "tcap_high_freq_rms": 0.0272,
+          "tcap_low_freq_spatial_dev": 0.0913
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0285_0.85_0.2.jpg",
+          "ceiling_psnr_db": 29.95,
+          "tcap_high_freq_rms": 0.0321,
+          "tcap_low_freq_spatial_dev": 0.0428
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0380_0.85_0.2.jpg",
+          "ceiling_psnr_db": 27.92,
+          "tcap_high_freq_rms": 0.0202,
+          "tcap_low_freq_spatial_dev": 0.0563
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0228_1_0.2.jpg",
+          "ceiling_psnr_db": 27.57,
+          "tcap_high_freq_rms": 0.0193,
+          "tcap_low_freq_spatial_dev": 0.0684
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0062_0.9_0.2.jpg",
+          "ceiling_psnr_db": 23.63,
+          "tcap_high_freq_rms": 0.0229,
+          "tcap_low_freq_spatial_dev": 0.0483
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0033_0.85_0.08.jpg",
+          "ceiling_psnr_db": 29.16,
+          "tcap_high_freq_rms": 0.0546,
+          "tcap_low_freq_spatial_dev": 0.0628
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1855_0.9_0.08.jpg",
+          "ceiling_psnr_db": 30.7,
+          "tcap_high_freq_rms": 0.0344,
+          "tcap_low_freq_spatial_dev": 0.1078
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1950_1_0.08.jpg",
+          "ceiling_psnr_db": 30.43,
+          "tcap_high_freq_rms": 0.0462,
+          "tcap_low_freq_spatial_dev": 0.0948
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0337_0.8_0.08.jpg",
+          "ceiling_psnr_db": 34.75,
+          "tcap_high_freq_rms": 0.0194,
+          "tcap_low_freq_spatial_dev": 0.0872
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0018_0.9_0.2.jpg",
+          "ceiling_psnr_db": 33.43,
+          "tcap_high_freq_rms": 0.0269,
+          "tcap_low_freq_spatial_dev": 0.0672
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0154_0.8_0.2.jpg",
+          "ceiling_psnr_db": 28.35,
+          "tcap_high_freq_rms": 0.0233,
+          "tcap_low_freq_spatial_dev": 0.034
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1749_0.8_0.2.jpg",
+          "ceiling_psnr_db": 32.02,
+          "tcap_high_freq_rms": 0.026,
+          "tcap_low_freq_spatial_dev": 0.0704
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0353_0.9_0.12.jpg",
+          "ceiling_psnr_db": 31.11,
+          "tcap_high_freq_rms": 0.0354,
+          "tcap_low_freq_spatial_dev": 0.1236
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1012_0.95_0.08.jpg",
+          "ceiling_psnr_db": 29.89,
+          "tcap_high_freq_rms": 0.0417,
+          "tcap_low_freq_spatial_dev": 0.0786
+        }
+      ]
+    }
+  }
+}

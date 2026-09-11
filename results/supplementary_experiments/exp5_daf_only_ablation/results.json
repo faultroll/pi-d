@@ -1,0 +1,1034 @@
+{
+  "config": {
+    "capacity_mode": "V3-t",
+    "dilation_mode": "None",
+    "channel_attn_mode": "None",
+    "use_refine": false,
+    "use_repconv": false,
+    "use_t_gate": false,
+    "use_varc": false,
+    "use_a_bound": false,
+    "a_net_mode": "M0",
+    "use_depth_attn": true,
+    "film_mode": "None",
+    "use_t_affine": false
+  },
+  "checkpoint": "checkpoints/model_C1-DepthOnly_V3-t.pth",
+  "seed": 42,
+  "domains": {
+    "indoor": {
+      "summary": {
+        "N": 35,
+        "psnr_mean": 19.582567160470145,
+        "psnr_std": 3.3675702975028554,
+        "ssim_mean": 0.8807214430400303,
+        "ssim_std": 0.06250897030628012
+      },
+      "records": [
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_1.png",
+          "gt_path": "./SOTS/indoor/gt/1408.png",
+          "scene_id": "1408",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 23.6224365234375,
+          "ssim": 0.9509109258651733
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_10.png",
+          "gt_path": "./SOTS/indoor/gt/1408.png",
+          "scene_id": "1408",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 17.07510757446289,
+          "ssim": 0.8890017867088318
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_2.png",
+          "gt_path": "./SOTS/indoor/gt/1408.png",
+          "scene_id": "1408",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 22.810880661010742,
+          "ssim": 0.9470285177230835
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_3.png",
+          "gt_path": "./SOTS/indoor/gt/1408.png",
+          "scene_id": "1408",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 21.8844051361084,
+          "ssim": 0.9416310787200928
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1408_4.png",
+          "gt_path": "./SOTS/indoor/gt/1408.png",
+          "scene_id": "1408",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 20.97625732421875,
+          "ssim": 0.9353015422821045
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_1.png",
+          "gt_path": "./SOTS/indoor/gt/1414.png",
+          "scene_id": "1414",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 23.14029312133789,
+          "ssim": 0.8889862298965454
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_10.png",
+          "gt_path": "./SOTS/indoor/gt/1414.png",
+          "scene_id": "1414",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 13.925477027893066,
+          "ssim": 0.7187502384185791
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_2.png",
+          "gt_path": "./SOTS/indoor/gt/1414.png",
+          "scene_id": "1414",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 20.83473014831543,
+          "ssim": 0.8620438575744629
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_3.png",
+          "gt_path": "./SOTS/indoor/gt/1414.png",
+          "scene_id": "1414",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 19.261695861816406,
+          "ssim": 0.8395634889602661
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1414_4.png",
+          "gt_path": "./SOTS/indoor/gt/1414.png",
+          "scene_id": "1414",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 18.122821807861328,
+          "ssim": 0.8202208280563354
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_1.png",
+          "gt_path": "./SOTS/indoor/gt/1415.png",
+          "scene_id": "1415",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 24.431039810180664,
+          "ssim": 0.9471611976623535
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_10.png",
+          "gt_path": "./SOTS/indoor/gt/1415.png",
+          "scene_id": "1415",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 15.135433197021484,
+          "ssim": 0.8261193633079529
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_2.png",
+          "gt_path": "./SOTS/indoor/gt/1415.png",
+          "scene_id": "1415",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 22.301406860351562,
+          "ssim": 0.9320873022079468
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_3.png",
+          "gt_path": "./SOTS/indoor/gt/1415.png",
+          "scene_id": "1415",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 20.686349868774414,
+          "ssim": 0.9174381494522095
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1415_4.png",
+          "gt_path": "./SOTS/indoor/gt/1415.png",
+          "scene_id": "1415",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 19.434049606323242,
+          "ssim": 0.9034342765808105
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_1.png",
+          "gt_path": "./SOTS/indoor/gt/1417.png",
+          "scene_id": "1417",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 23.28929901123047,
+          "ssim": 0.9374309778213501
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_10.png",
+          "gt_path": "./SOTS/indoor/gt/1417.png",
+          "scene_id": "1417",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 13.406463623046875,
+          "ssim": 0.7306875586509705
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_2.png",
+          "gt_path": "./SOTS/indoor/gt/1417.png",
+          "scene_id": "1417",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 21.244422912597656,
+          "ssim": 0.9171829223632812
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_3.png",
+          "gt_path": "./SOTS/indoor/gt/1417.png",
+          "scene_id": "1417",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 19.556577682495117,
+          "ssim": 0.8947452902793884
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1417_4.png",
+          "gt_path": "./SOTS/indoor/gt/1417.png",
+          "scene_id": "1417",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 18.162067413330078,
+          "ssim": 0.8706222176551819
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_1.png",
+          "gt_path": "./SOTS/indoor/gt/1401.png",
+          "scene_id": "1401",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 22.060775756835938,
+          "ssim": 0.880748450756073
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_10.png",
+          "gt_path": "./SOTS/indoor/gt/1401.png",
+          "scene_id": "1401",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 16.85150909423828,
+          "ssim": 0.7902153730392456
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_2.png",
+          "gt_path": "./SOTS/indoor/gt/1401.png",
+          "scene_id": "1401",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 21.62635040283203,
+          "ssim": 0.8686676025390625
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_3.png",
+          "gt_path": "./SOTS/indoor/gt/1401.png",
+          "scene_id": "1401",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 21.00570297241211,
+          "ssim": 0.8570073843002319
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1401_4.png",
+          "gt_path": "./SOTS/indoor/gt/1401.png",
+          "scene_id": "1401",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 20.323474884033203,
+          "ssim": 0.8466342091560364
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_1.png",
+          "gt_path": "./SOTS/indoor/gt/1407.png",
+          "scene_id": "1407",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 24.69517707824707,
+          "ssim": 0.9591105580329895
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_10.png",
+          "gt_path": "./SOTS/indoor/gt/1407.png",
+          "scene_id": "1407",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 17.16311264038086,
+          "ssim": 0.8994276523590088
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_2.png",
+          "gt_path": "./SOTS/indoor/gt/1407.png",
+          "scene_id": "1407",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 23.301624298095703,
+          "ssim": 0.953120768070221
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_3.png",
+          "gt_path": "./SOTS/indoor/gt/1407.png",
+          "scene_id": "1407",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 22.045520782470703,
+          "ssim": 0.9463274478912354
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1407_4.png",
+          "gt_path": "./SOTS/indoor/gt/1407.png",
+          "scene_id": "1407",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 21.030059814453125,
+          "ssim": 0.9396052360534668
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_1.png",
+          "gt_path": "./SOTS/indoor/gt/1440.png",
+          "scene_id": "1440",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 18.105243682861328,
+          "ssim": 0.8946979641914368
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_10.png",
+          "gt_path": "./SOTS/indoor/gt/1440.png",
+          "scene_id": "1440",
+          "domain": "indoor",
+          "haze_level": "thick",
+          "psnr": 10.93533992767334,
+          "ssim": 0.7490322589874268
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_2.png",
+          "gt_path": "./SOTS/indoor/gt/1440.png",
+          "scene_id": "1440",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 16.65492820739746,
+          "ssim": 0.87430340051651
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_3.png",
+          "gt_path": "./SOTS/indoor/gt/1440.png",
+          "scene_id": "1440",
+          "domain": "indoor",
+          "haze_level": "thin",
+          "psnr": 15.565567016601562,
+          "ssim": 0.8560748100280762
+        },
+        {
+          "hazy_path": "./SOTS/indoor/hazy/1440_4.png",
+          "gt_path": "./SOTS/indoor/gt/1440.png",
+          "scene_id": "1440",
+          "domain": "indoor",
+          "haze_level": "medium",
+          "psnr": 14.724248886108398,
+          "ssim": 0.8399296402931213
+        }
+      ]
+    },
+    "outdoor": {
+      "summary": {
+        "N": 74,
+        "psnr_mean": 23.32410820110424,
+        "psnr_std": 2.6577942246991393,
+        "ssim_mean": 0.9384357115706882,
+        "ssim_std": 0.04194808713331097
+      },
+      "records": [
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0364_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0364.png",
+          "scene_id": "0364",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 23.90396499633789,
+          "ssim": 0.950981616973877
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0228_1_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0228.png",
+          "scene_id": "0228",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 18.246477127075195,
+          "ssim": 0.871910035610199
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0404_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0404.png",
+          "scene_id": "0404",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 22.77831268310547,
+          "ssim": 0.9564773440361023
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0411_0.95_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0411.png",
+          "scene_id": "0411",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 23.400432586669922,
+          "ssim": 0.9543481469154358
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0183_0.8_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0183.png",
+          "scene_id": "0183",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 20.65259552001953,
+          "ssim": 0.8994356989860535
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0346_0.95_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0346.png",
+          "scene_id": "0346",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 24.293560028076172,
+          "ssim": 0.913769006729126
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0058_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0058.png",
+          "scene_id": "0058",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 21.703927993774414,
+          "ssim": 0.9172272086143494
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0242_0.8_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0242.png",
+          "scene_id": "0242",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 26.73007583618164,
+          "ssim": 0.9611488580703735
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0084_0.95_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0084.png",
+          "scene_id": "0084",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 21.401294708251953,
+          "ssim": 0.9114808440208435
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0337_0.8_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0337.png",
+          "scene_id": "0337",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 17.450368881225586,
+          "ssim": 0.911683201789856
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0292_1_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0292.png",
+          "scene_id": "0292",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 27.450969696044922,
+          "ssim": 0.9706728458404541
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1742_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1742.png",
+          "scene_id": "1742",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 27.131528854370117,
+          "ssim": 0.9669827222824097
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0033_0.85_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0033.png",
+          "scene_id": "0033",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.15036964416504,
+          "ssim": 0.9697484970092773
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1853_0.85_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1853.png",
+          "scene_id": "1853",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.52784538269043,
+          "ssim": 0.9762663841247559
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0166_0.8_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0166.png",
+          "scene_id": "0166",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 20.189178466796875,
+          "ssim": 0.91730135679245
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0392_1_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0392.png",
+          "scene_id": "0392",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 26.198200225830078,
+          "ssim": 0.9609007239341736
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0216_1_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0216.png",
+          "scene_id": "0216",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 23.817657470703125,
+          "ssim": 0.9664103984832764
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1879_0.9_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1879.png",
+          "scene_id": "1879",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 26.047639846801758,
+          "ssim": 0.9549756050109863
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0225_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0225.png",
+          "scene_id": "0225",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 19.45318603515625,
+          "ssim": 0.8093635439872742
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0068_1_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0068.png",
+          "scene_id": "0068",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 21.725963592529297,
+          "ssim": 0.9350156188011169
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0243_0.8_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0243.png",
+          "scene_id": "0243",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 22.804677963256836,
+          "ssim": 0.9596388339996338
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1950_1_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1950.png",
+          "scene_id": "1950",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 27.262754440307617,
+          "ssim": 0.976597249507904
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1970_0.9_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1970.png",
+          "scene_id": "1970",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 23.908489227294922,
+          "ssim": 0.912805438041687
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0210_0.85_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0210.png",
+          "scene_id": "0210",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 20.954029083251953,
+          "ssim": 0.9273252487182617
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1800_1_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1800.png",
+          "scene_id": "1800",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 24.627532958984375,
+          "ssim": 0.9604935050010681
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0138_0.9_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0138.png",
+          "scene_id": "0138",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 27.33313751220703,
+          "ssim": 0.9731905460357666
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0100_0.9_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0100.png",
+          "scene_id": "0100",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 25.91203498840332,
+          "ssim": 0.975502073764801
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1964_0.85_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1964.png",
+          "scene_id": "1964",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 24.78392791748047,
+          "ssim": 0.9573659300804138
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0213_1_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0213.png",
+          "scene_id": "0213",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 18.233091354370117,
+          "ssim": 0.879163920879364
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1956_0.8_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1956.png",
+          "scene_id": "1956",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 22.110118865966797,
+          "ssim": 0.9235928654670715
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1712_0.8_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1712.png",
+          "scene_id": "1712",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 23.467327117919922,
+          "ssim": 0.9590551257133484
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0102_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0102.png",
+          "scene_id": "0102",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 23.29735565185547,
+          "ssim": 0.9569523930549622
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1852_0.85_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1852.png",
+          "scene_id": "1852",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.1309757232666,
+          "ssim": 0.8639187812805176
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1784_0.8_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1784.png",
+          "scene_id": "1784",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 23.67112922668457,
+          "ssim": 0.9781018495559692
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0004_0.9_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0004.png",
+          "scene_id": "0004",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 22.72597885131836,
+          "ssim": 0.9780018925666809
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1900_0.8_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1900.png",
+          "scene_id": "1900",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.89434242248535,
+          "ssim": 0.9587281346321106
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1855_0.9_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1855.png",
+          "scene_id": "1855",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 25.166624069213867,
+          "ssim": 0.9805513620376587
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0174_0.95_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0174.png",
+          "scene_id": "0174",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.77323341369629,
+          "ssim": 0.9730523228645325
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0380_0.85_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0380.png",
+          "scene_id": "0380",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 17.349756240844727,
+          "ssim": 0.806222140789032
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0285_0.85_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0285.png",
+          "scene_id": "0285",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 24.816783905029297,
+          "ssim": 0.9406688213348389
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0140_0.95_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0140.png",
+          "scene_id": "0140",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 25.16517448425293,
+          "ssim": 0.9675371646881104
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0269_0.95_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0269.png",
+          "scene_id": "0269",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 22.25027847290039,
+          "ssim": 0.9670915007591248
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1962_0.9_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1962.png",
+          "scene_id": "1962",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 23.733238220214844,
+          "ssim": 0.967017650604248
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1714_1_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1714.png",
+          "scene_id": "1714",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 17.278013229370117,
+          "ssim": 0.7968689799308777
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1012_0.95_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1012.png",
+          "scene_id": "1012",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.524972915649414,
+          "ssim": 0.956267237663269
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1730_0.85_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1730.png",
+          "scene_id": "1730",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.834819793701172,
+          "ssim": 0.9679960012435913
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0126_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0126.png",
+          "scene_id": "0126",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 21.76456069946289,
+          "ssim": 0.9618058204650879
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0353_0.9_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0353.png",
+          "scene_id": "0353",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 24.518131256103516,
+          "ssim": 0.96816486120224
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0019_0.8_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0019.png",
+          "scene_id": "0019",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 22.82260513305664,
+          "ssim": 0.9491099715232849
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0391_1_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0391.png",
+          "scene_id": "0391",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 27.04291343688965,
+          "ssim": 0.9700396060943604
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0318_0.85_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0318.png",
+          "scene_id": "0318",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 21.21842384338379,
+          "ssim": 0.9080641269683838
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0148_0.9_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0148.png",
+          "scene_id": "0148",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 24.29290771484375,
+          "ssim": 0.9227523803710938
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0139_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0139.png",
+          "scene_id": "0139",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 22.706256866455078,
+          "ssim": 0.9537588953971863
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0065_0.9_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0065.png",
+          "scene_id": "0065",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 25.200557708740234,
+          "ssim": 0.9455171227455139
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0022_0.8_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0022.png",
+          "scene_id": "0022",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 20.59246253967285,
+          "ssim": 0.9496429562568665
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0023_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0023.png",
+          "scene_id": "0023",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 24.217321395874023,
+          "ssim": 0.9430271983146667
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0271_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0271.png",
+          "scene_id": "0271",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 24.135498046875,
+          "ssim": 0.9417393207550049
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0382_0.9_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0382.png",
+          "scene_id": "0382",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 26.943540573120117,
+          "ssim": 0.9811856746673584
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0062_0.9_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0062.png",
+          "scene_id": "0062",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 18.834808349609375,
+          "ssim": 0.8918399810791016
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0343_0.95_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0343.png",
+          "scene_id": "0343",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 19.347820281982422,
+          "ssim": 0.8996216058731079
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1926_0.9_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1926.png",
+          "scene_id": "1926",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 24.16295623779297,
+          "ssim": 0.9765710234642029
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1982_1_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1982.png",
+          "scene_id": "1982",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 29.058242797851562,
+          "ssim": 0.975010097026825
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1046_0.9_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1046.png",
+          "scene_id": "1046",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 18.70752716064453,
+          "ssim": 0.8463153839111328
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0071_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0071.png",
+          "scene_id": "0071",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 22.593843460083008,
+          "ssim": 0.954735517501831
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1749_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1749.png",
+          "scene_id": "1749",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 20.769309997558594,
+          "ssim": 0.8486791849136353
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0092_0.85_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0092.png",
+          "scene_id": "0092",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 22.90826988220215,
+          "ssim": 0.9547227621078491
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0142_0.95_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0142.png",
+          "scene_id": "0142",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 24.966909408569336,
+          "ssim": 0.9665670394897461
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0154_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0154.png",
+          "scene_id": "0154",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 19.45340347290039,
+          "ssim": 0.8955706357955933
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0171_0.85_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0171.png",
+          "scene_id": "0171",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 26.273900985717773,
+          "ssim": 0.9405697584152222
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1756_0.9_0.12.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1756.png",
+          "scene_id": "1756",
+          "domain": "outdoor",
+          "haze_level": "medium",
+          "psnr": 25.045608520507812,
+          "ssim": 0.9484485387802124
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0018_0.9_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0018.png",
+          "scene_id": "0018",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 24.36964988708496,
+          "ssim": 0.9650021195411682
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0076_0.8_0.2.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0076.png",
+          "scene_id": "0076",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 23.25527000427246,
+          "ssim": 0.9386935830116272
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/0076_1_0.16.jpg",
+          "gt_path": "./SOTS/outdoor/gt/0076.png",
+          "scene_id": "0076",
+          "domain": "outdoor",
+          "haze_level": "thick",
+          "psnr": 22.612667083740234,
+          "ssim": 0.9424501657485962
+        },
+        {
+          "hazy_path": "./SOTS/outdoor/hazy/1007_0.95_0.08.jpg",
+          "gt_path": "./SOTS/outdoor/gt/1007.png",
+          "scene_id": "1007",
+          "domain": "outdoor",
+          "haze_level": "thin",
+          "psnr": 26.905292510986328,
+          "ssim": 0.9648306965827942
+        }
+      ]
+    }
+  },
+  "avg_psnr_35_74_weighted": 22.122695940350173,
+  "interaction_term": {
+    "y_baseline": 21.408428988325486,
+    "y_film_taff": 21.46947263140197,
+    "y_daf_alone": 22.122695940350173,
+    "y_film_taff_daf": 22.80459641972813,
+    "daf_alone_effect": 0.7142669520246869,
+    "film_taff_effect": 0.061043643076484244,
+    "daf_marginal_given_film_taff": 1.335123788326161,
+    "interaction": 0.6208568363014741
+  }
+}

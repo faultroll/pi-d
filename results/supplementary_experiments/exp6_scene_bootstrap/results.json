@@ -1,0 +1,694 @@
+{
+  "model_a": "A-Baseline",
+  "model_b": "C1-DepthOnly",
+  "by_domain": {
+    "indoor": {
+      "scene_table": [
+        {
+          "scene_id": "1401",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 20.511,
+          "psnr_b": 20.374,
+          "delta": -0.137
+        },
+        {
+          "scene_id": "1407",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 20.384,
+          "psnr_b": 21.647,
+          "delta": 1.263
+        },
+        {
+          "scene_id": "1408",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 20.407,
+          "psnr_b": 21.274,
+          "delta": 0.867
+        },
+        {
+          "scene_id": "1414",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 15.651,
+          "psnr_b": 19.057,
+          "delta": 3.406
+        },
+        {
+          "scene_id": "1415",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 18.82,
+          "psnr_b": 20.398,
+          "delta": 1.577
+        },
+        {
+          "scene_id": "1417",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 17.774,
+          "psnr_b": 19.132,
+          "delta": 1.357
+        },
+        {
+          "scene_id": "1440",
+          "n_variants_a": 5,
+          "n_variants_b": 5,
+          "psnr_a": 13.52,
+          "psnr_b": 15.197,
+          "delta": 1.677
+        }
+      ],
+      "bootstrap": {
+        "n_scenes": 7,
+        "point_estimate_mean_delta": 1.43,
+        "bootstrap_mean_of_means": 1.4367,
+        "bootstrap_std": 0.3707,
+        "ci_95_low": 0.7381,
+        "ci_95_high": 2.228,
+        "excludes_zero": true
+      }
+    },
+    "outdoor": {
+      "scene_table": [
+        {
+          "scene_id": "0004",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.187,
+          "psnr_b": 22.726,
+          "delta": -5.461
+        },
+        {
+          "scene_id": "0018",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 20.304,
+          "psnr_b": 24.37,
+          "delta": 4.066
+        },
+        {
+          "scene_id": "0019",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 22.554,
+          "psnr_b": 22.823,
+          "delta": 0.269
+        },
+        {
+          "scene_id": "0022",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.649,
+          "psnr_b": 20.592,
+          "delta": -3.056
+        },
+        {
+          "scene_id": "0023",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.814,
+          "psnr_b": 24.217,
+          "delta": 0.403
+        },
+        {
+          "scene_id": "0033",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 24.941,
+          "psnr_b": 24.15,
+          "delta": -0.791
+        },
+        {
+          "scene_id": "0058",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 21.359,
+          "psnr_b": 21.704,
+          "delta": 0.345
+        },
+        {
+          "scene_id": "0062",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 13.466,
+          "psnr_b": 18.835,
+          "delta": 5.369
+        },
+        {
+          "scene_id": "0065",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.021,
+          "psnr_b": 25.201,
+          "delta": 2.18
+        },
+        {
+          "scene_id": "0068",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 18.931,
+          "psnr_b": 21.726,
+          "delta": 2.795
+        },
+        {
+          "scene_id": "0071",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.612,
+          "psnr_b": 22.594,
+          "delta": -1.018
+        },
+        {
+          "scene_id": "0076",
+          "n_variants_a": 2,
+          "n_variants_b": 2,
+          "psnr_a": 19.206,
+          "psnr_b": 22.934,
+          "delta": 3.728
+        },
+        {
+          "scene_id": "0084",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 20.069,
+          "psnr_b": 21.401,
+          "delta": 1.332
+        },
+        {
+          "scene_id": "0092",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 19.782,
+          "psnr_b": 22.908,
+          "delta": 3.126
+        },
+        {
+          "scene_id": "0100",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.105,
+          "psnr_b": 25.912,
+          "delta": -2.193
+        },
+        {
+          "scene_id": "0102",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 26.25,
+          "psnr_b": 23.297,
+          "delta": -2.953
+        },
+        {
+          "scene_id": "0126",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 22.098,
+          "psnr_b": 21.765,
+          "delta": -0.334
+        },
+        {
+          "scene_id": "0138",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.179,
+          "psnr_b": 27.333,
+          "delta": -0.846
+        },
+        {
+          "scene_id": "0139",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 24.638,
+          "psnr_b": 22.706,
+          "delta": -1.932
+        },
+        {
+          "scene_id": "0140",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 24.653,
+          "psnr_b": 25.165,
+          "delta": 0.512
+        },
+        {
+          "scene_id": "0142",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 27.794,
+          "psnr_b": 24.967,
+          "delta": -2.827
+        },
+        {
+          "scene_id": "0148",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.577,
+          "psnr_b": 24.293,
+          "delta": -1.284
+        },
+        {
+          "scene_id": "0154",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 16.932,
+          "psnr_b": 19.453,
+          "delta": 2.521
+        },
+        {
+          "scene_id": "0166",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 16.578,
+          "psnr_b": 20.189,
+          "delta": 3.611
+        },
+        {
+          "scene_id": "0171",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 29.198,
+          "psnr_b": 26.274,
+          "delta": -2.924
+        },
+        {
+          "scene_id": "0174",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 27.88,
+          "psnr_b": 24.773,
+          "delta": -3.107
+        },
+        {
+          "scene_id": "0183",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 20.88,
+          "psnr_b": 20.653,
+          "delta": -0.227
+        },
+        {
+          "scene_id": "0210",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 19.581,
+          "psnr_b": 20.954,
+          "delta": 1.373
+        },
+        {
+          "scene_id": "0213",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 15.072,
+          "psnr_b": 18.233,
+          "delta": 3.161
+        },
+        {
+          "scene_id": "0216",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.013,
+          "psnr_b": 23.818,
+          "delta": 0.805
+        },
+        {
+          "scene_id": "0225",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 18.868,
+          "psnr_b": 19.453,
+          "delta": 0.585
+        },
+        {
+          "scene_id": "0228",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 13.38,
+          "psnr_b": 18.246,
+          "delta": 4.866
+        },
+        {
+          "scene_id": "0242",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 26.659,
+          "psnr_b": 26.73,
+          "delta": 0.071
+        },
+        {
+          "scene_id": "0243",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.174,
+          "psnr_b": 22.805,
+          "delta": -0.369
+        },
+        {
+          "scene_id": "0269",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 21.12,
+          "psnr_b": 22.25,
+          "delta": 1.13
+        },
+        {
+          "scene_id": "0271",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.658,
+          "psnr_b": 24.135,
+          "delta": -1.522
+        },
+        {
+          "scene_id": "0285",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 19.91,
+          "psnr_b": 24.817,
+          "delta": 4.907
+        },
+        {
+          "scene_id": "0292",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 18.703,
+          "psnr_b": 27.451,
+          "delta": 8.748
+        },
+        {
+          "scene_id": "0318",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 17.813,
+          "psnr_b": 21.218,
+          "delta": 3.405
+        },
+        {
+          "scene_id": "0337",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.513,
+          "psnr_b": 17.45,
+          "delta": -6.063
+        },
+        {
+          "scene_id": "0343",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 15.789,
+          "psnr_b": 19.348,
+          "delta": 3.559
+        },
+        {
+          "scene_id": "0346",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 26.291,
+          "psnr_b": 24.294,
+          "delta": -1.997
+        },
+        {
+          "scene_id": "0353",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.647,
+          "psnr_b": 24.518,
+          "delta": -4.129
+        },
+        {
+          "scene_id": "0364",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.351,
+          "psnr_b": 23.904,
+          "delta": -1.447
+        },
+        {
+          "scene_id": "0380",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 13.89,
+          "psnr_b": 17.35,
+          "delta": 3.459
+        },
+        {
+          "scene_id": "0382",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.236,
+          "psnr_b": 26.944,
+          "delta": -1.292
+        },
+        {
+          "scene_id": "0391",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.233,
+          "psnr_b": 27.043,
+          "delta": -1.19
+        },
+        {
+          "scene_id": "0392",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 17.63,
+          "psnr_b": 26.198,
+          "delta": 8.569
+        },
+        {
+          "scene_id": "0404",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 21.073,
+          "psnr_b": 22.778,
+          "delta": 1.706
+        },
+        {
+          "scene_id": "0411",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 18.847,
+          "psnr_b": 23.4,
+          "delta": 4.553
+        },
+        {
+          "scene_id": "1007",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 31.475,
+          "psnr_b": 26.905,
+          "delta": -4.57
+        },
+        {
+          "scene_id": "1012",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 24.322,
+          "psnr_b": 24.525,
+          "delta": 0.203
+        },
+        {
+          "scene_id": "1046",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 16.687,
+          "psnr_b": 18.708,
+          "delta": 2.021
+        },
+        {
+          "scene_id": "1712",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 22.357,
+          "psnr_b": 23.467,
+          "delta": 1.11
+        },
+        {
+          "scene_id": "1714",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 14.338,
+          "psnr_b": 17.278,
+          "delta": 2.94
+        },
+        {
+          "scene_id": "1730",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 26.146,
+          "psnr_b": 24.835,
+          "delta": -1.311
+        },
+        {
+          "scene_id": "1742",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.033,
+          "psnr_b": 27.132,
+          "delta": -0.901
+        },
+        {
+          "scene_id": "1749",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 18.833,
+          "psnr_b": 20.769,
+          "delta": 1.936
+        },
+        {
+          "scene_id": "1756",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.285,
+          "psnr_b": 25.046,
+          "delta": -0.239
+        },
+        {
+          "scene_id": "1784",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.609,
+          "psnr_b": 23.671,
+          "delta": -1.938
+        },
+        {
+          "scene_id": "1800",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 19.319,
+          "psnr_b": 24.628,
+          "delta": 5.309
+        },
+        {
+          "scene_id": "1852",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 27.328,
+          "psnr_b": 24.131,
+          "delta": -3.197
+        },
+        {
+          "scene_id": "1853",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.3,
+          "psnr_b": 24.528,
+          "delta": -0.772
+        },
+        {
+          "scene_id": "1855",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.825,
+          "psnr_b": 25.167,
+          "delta": -3.658
+        },
+        {
+          "scene_id": "1879",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 27.051,
+          "psnr_b": 26.048,
+          "delta": -1.003
+        },
+        {
+          "scene_id": "1900",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 26.392,
+          "psnr_b": 24.894,
+          "delta": -1.498
+        },
+        {
+          "scene_id": "1926",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.944,
+          "psnr_b": 24.163,
+          "delta": 0.219
+        },
+        {
+          "scene_id": "1950",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 27.848,
+          "psnr_b": 27.263,
+          "delta": -0.585
+        },
+        {
+          "scene_id": "1956",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 23.904,
+          "psnr_b": 22.11,
+          "delta": -1.794
+        },
+        {
+          "scene_id": "1962",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 29.253,
+          "psnr_b": 23.733,
+          "delta": -5.52
+        },
+        {
+          "scene_id": "1964",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 20.08,
+          "psnr_b": 24.784,
+          "delta": 4.704
+        },
+        {
+          "scene_id": "1970",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 25.992,
+          "psnr_b": 23.908,
+          "delta": -2.083
+        },
+        {
+          "scene_id": "1982",
+          "n_variants_a": 1,
+          "n_variants_b": 1,
+          "psnr_a": 28.546,
+          "psnr_b": 29.058,
+          "delta": 0.512
+        }
+      ],
+      "bootstrap": {
+        "n_scenes": 73,
+        "point_estimate_mean_delta": 0.3298,
+        "bootstrap_mean_of_means": 0.3286,
+        "bootstrap_std": 0.3542,
+        "ci_95_low": -0.3694,
+        "ci_95_high": 1.0368,
+        "excludes_zero": false
+      }
+    }
+  },
+  "indoor_effective_n_curve": [
+    {
+      "rho": 0.0,
+      "n_eff": 35.0
+    },
+    {
+      "rho": 0.25,
+      "n_eff": 17.5
+    },
+    {
+      "rho": 0.5,
+      "n_eff": 11.67
+    },
+    {
+      "rho": 0.75,
+      "n_eff": 8.75
+    },
+    {
+      "rho": 1.0,
+      "n_eff": 7.0
+    }
+  ]
+}
